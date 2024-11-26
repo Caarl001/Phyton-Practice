@@ -1,7 +1,5 @@
 # Phyton-Practice
-
 Here I will study python
-----------------------------------------------------------------------------------------
 
 # Para configurar la identidad del git
 
