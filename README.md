@@ -10,7 +10,6 @@ git config --global user.email "leonardo@example.com"
 git remote add origin https://github.com/tuusuario/tu-repositorio.git
 
 ----------------------------------------------------------------------------------------
-
  # Comandos git para subir al repositorio
 
 git status
