@@ -1,8 +1,9 @@
 # Phyton-Practice
+
 Here I will study python
 ----------------------------------------------------------------------------------------
 
-*Para configurar la identidad del git
+# Para configurar la identidad del git
 
 git config --global user.name "Leonardo"
 
@@ -12,7 +13,7 @@ git remote add origin https://github.com/tuusuario/tu-repositorio.git
 
 ----------------------------------------------------------------------------------------
 
-*Comandos git para subir al repositorio
+ # Comandos git para subir al repositorio
 
 git status
 
