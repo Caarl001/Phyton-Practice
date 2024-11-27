@@ -35,5 +35,5 @@ print(f'\nUnion de A & B : {union}')
 interseccion = a & b
 print(f'Interseccion A & B : {interseccion}')
 
-diferencia =  b - a
+diferencia = a - b
 print(f'Diferencia A & B : {diferencia}')
