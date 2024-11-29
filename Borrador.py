@@ -4,3 +4,6 @@
 mi_tupla = (1, 5, 2, 7,)
 print(mi_tupla)
 #No podemos modificar la tupla
+
+# Siempre se me olvida algo del bucle for el end= ' '
+# Ejemplo: print(f'- {clave}: {valor}', end= ' ')
