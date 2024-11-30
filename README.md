@@ -1,24 +1,24 @@
-# Phyton-Practice
-Here I will study python
-
 # Para configurar la identidad del git
 
-git config --global user.name "Leonardo"
+### Primero. colocamos el nombre del usuario.
+>it config --global user.name "Leonardo"
 
-git config --global user.email "leonardo@example.com"
+### Segundo. Ahora ingresamos el correo.
+>git config --global user.email "leonardo@example.com"
 
-git remote add origin https://github.com/tuusuario/tu-repositorio.git
-
+### Tercero. Tenemos que enlazar el repositorio.
+>git remote add origin https://github.com/tuusuario/tu-repositorio.git
 ----------------------------------------------------------------------------------------
  # Comandos git para subir al repositorio
 
-git status
-
-git add .
-
-git commit -m "Tu mensaje descriptivo sobre los cambios"
-
-git push origin nombre_de_la_rama
+### Mostrar el estaso de las cosas que cambiamos o modificamos.
+>git status
+### Agregamos los cambios 
+>git add .
+### Aca se agregan con comentarios. pero no se suben todavias.
+>git commit -m "Tu mensaje descriptivo sobre los cambios"
+### Aca se suben a la rama que escribimos.
+>git push origin nombre_de_la_rama
 
 ----------------------------------------------------------------------------------------
 # Rama local desactualizada en comparación con la rama remota
