@@ -1,10 +1,19 @@
 # Para configurar la identidad del git
+<<<<<<< HEAD
 
 ### Primero. colocamos el nombre del usuario.
 >it config --global user.name "Leonardo"
 
 ### Segundo. Ahora ingresamos el correo.
 >git config --global user.email "leonardo@example.com"
+=======
+...
+git config --global user.name "Leonardo"
+...
+git config --global user.email "leonardo@example.com"
+
+git remote add origin https://github.com/tuusuario/tu-repositorio.git
+>>>>>>> 27c3897ef37f2088ab3909795ab0d91f94da866a
 
 ### Tercero. Tenemos que enlazar el repositorio.
 >git remote add origin https://github.com/tuusuario/tu-repositorio.git
