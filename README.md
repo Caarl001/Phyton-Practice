@@ -1,19 +1,10 @@
 # Para configurar la identidad del git
-<<<<<<< HEAD
 
 ### Primero. colocamos el nombre del usuario.
 >it config --global user.name "Leonardo"
 
 ### Segundo. Ahora ingresamos el correo.
 >git config --global user.email "leonardo@example.com"
-=======
-...
-git config --global user.name "Leonardo"
-...
-git config --global user.email "leonardo@example.com"
-
-git remote add origin https://github.com/tuusuario/tu-repositorio.git
->>>>>>> 27c3897ef37f2088ab3909795ab0d91f94da866a
 
 ### Tercero. Tenemos que enlazar el repositorio.
 >git remote add origin https://github.com/tuusuario/tu-repositorio.git
@@ -32,16 +23,18 @@ git remote add origin https://github.com/tuusuario/tu-repositorio.git
 ----------------------------------------------------------------------------------------
 # Rama local desactualizada en comparación con la rama remota
 
-git pull origin master --allow-unrelated-histories
+### Con este codigo pedimos la rama la cual le copiara todo.
+>git pull origin master --allow-unrelated-histories
 
- #### Resolver conflito si es que hay:
- git add archivo_con_conflicto
+### Resolver conflito si es que hay.
+>git add archivo_con_conflicto
 
-git commit -m "Resolver conflictos de fusión"
+>git commit -m "Resolver conflictos de fusión"
 
-git push origin master
+>git push origin master
 
-#### Si después de estos pasos sigues teniendo problemas, una opción más drástica es forzar el push, aunque debe hacerse con precaución:
+### Si después de estos pasos sigues teniendo problemas, una opción más drástica es forzar el push, aunque debe hacerse con precaución:
 
-git push origin master --force
+>git push origin master --force
+----------------------------------------------------------------------------------------
 
