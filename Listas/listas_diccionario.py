@@ -1,5 +1,3 @@
-from AgendaDeContactos import nombre
-
 print(f'*** Lista & Diccionario ***')
 
 persona = [
