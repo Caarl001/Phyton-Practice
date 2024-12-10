@@ -1,7 +1,7 @@
 # Para configurar la identidad del git
 
 ### Primero. colocamos el nombre del usuario.
->it config --global user.name "Leonardo"
+>git config --global user.name "Leonardo"
 
 ### Segundo. Ahora ingresamos el correo.
 >git config --global user.email "leonardo@example.com"
