@@ -38,7 +38,10 @@
 >git push origin master --force
 
 ### Si quieres abortar el Merge 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 36a520f1e86e726bc6225478aa0b8fca034d9659
 > git merge --abort
 
 ----------------------------------------------------------------------------------------
