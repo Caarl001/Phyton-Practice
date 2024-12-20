@@ -36,5 +36,9 @@
 ### Si después de estos pasos sigues teniendo problemas, una opción más drástica es forzar el push, aunque debe hacerse con precaución:
 
 >git push origin master --force
+
+### Si quieres abortar el Merge 
+> git merge --abort
+
 ----------------------------------------------------------------------------------------
 
