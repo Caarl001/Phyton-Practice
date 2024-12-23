@@ -27,6 +27,7 @@ imprimir_detalle_persona(nombre='Karla', edad=30, ciudad='Mexico')
 imprimir_detalle_persona(nombre='Carlos', edad=28, ciuduad='Argentina', puesto='Perro Bomba')
 
 #============================================================================
+<<<<<<< HEAD
 print('*** Funcion par ***')
 
 # Funcion para saber si un numero es par o no
@@ -40,3 +41,6 @@ def es_par(numero):
 if __name__ == '__main__':
     numero =int(input('Proporciona un valor numerico: '))
     print(f'Numero par? {es_par(numero)}')
+=======
+
+>>>>>>> 31c260342fa0e5d68e3cdcf20d41095da23801ea
