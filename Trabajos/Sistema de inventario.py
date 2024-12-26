@@ -21,6 +21,6 @@ muestras =[
 
 def mostrar_inventario():
     print('--- Inventario del Almacén ---')
-    for productos in muestras:
-        print(f'id: {productos.get('id')}, Nombre: {productos.get('nombre')}, '
-              f'Precio: ${productos.get('precio')}, cantiadad: {productos.get('cantidad')}')
+    for producto in muestras:
+        print(f'id: {producto.get('id')}, Nombre: {producto.get('nombre')}, '
+              f'Precio: ${producto.get('precio')}, cantiadad: {producto.get('cantidad')}')
