@@ -30,7 +30,16 @@ def agregar_producto():
     print('Producto agregado al inventario')
 
 def buscar_producto_por_id():
-    pass
+    print('--- Buscar Producto Por Id ---')
+    id_buscar = int(input('Ingresa el id a buscar: '))
+
+    for producto in inventario:
+        if producto.get('id') == id_buscar:
+            print('\nInformacion del producto encontrado: ')
+            print(f'Id: {producto.get('id')},Nombre: {producto.get('nombre')}, '
+                  f'Precio: {producto.get('precio')}, Cantidad: {producto.get('cantidad')}')
+            return
+    print('\nProducto no encontrado')
 
 # Programa principal
 if __name__ == '__main__':
