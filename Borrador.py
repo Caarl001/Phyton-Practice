@@ -7,3 +7,12 @@ print(mi_tupla)
 
 # Siempre se me olvida algo del bucle for el end= ' '
 # Ejemplo: print(f'- {clave}: {valor}', end= ' ')
+
+# Metodo set
+#@marca(self, marca):
+#       self._marca = marca
+
+# Metodo get
+#@property
+#def marca(self):
+#     return self._marca

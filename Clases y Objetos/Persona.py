@@ -1,6 +1,7 @@
 # Definicion de una clase
 
 class PersonaPrincipal:
+    # Constructor
 
     def inicializar_persona(self, nombre, apellido):
         # Crearemos los atributos de la clase
