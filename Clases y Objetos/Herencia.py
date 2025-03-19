@@ -8,6 +8,10 @@ class Animal:
 class Perro(Animal):
     def hacer_sonido(self):
         print('Puedo ladrar')
+# Sobreescribir
+    def dormir(self):
+        print('Duermo 15 horas al dia')
+
 # Programa principal
 print('Ejemplo')
 animal1 = Animal()
