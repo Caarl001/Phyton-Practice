@@ -20,3 +20,8 @@ animal1.dormir()
 
 animal2 = Perro()
 animal2.hacer_sonido()
+
+# Clases en Python
+#  __init__() inializar y agregar atributos
+#  __str__() estado de nuestro obj
+#  __eq__()  comparar si son iguales
