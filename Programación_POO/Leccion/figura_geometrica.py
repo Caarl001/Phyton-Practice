@@ -1,18 +1,38 @@
 class FiguraGeometrica:
     def __init__(self, ancho, alto):
-        self._ancho = ancho
-        self._alto = alto
+        if self._validar_valor(ancho):
+            self._ancho = ancho
+        else:
+            self._ancho = 0
+        if self._validar_valor(alto):
+            self._alto = alto
+        else:
+            self._alto = alto
 
-    def get_ancho(self):
+    @property
+    def ancho(self):
         return self._ancho
 
-    def get_alto(self):
+    @ancho.setter
+    def ancho(self, ancho):
+        if self._validar_valor(ancho):
+            self._ancho = ancho
+        else:
+            print(f'Valor erroneo: {ancho}')
+
+    @property
+    def alto(self):
         return self._alto
 
-    def set_ancho(self, ancho):
-        self._ancho = ancho
+    @alto.setter
+    def alto(self, alto):
+        if self._validar_valor(alto):
+            self._alto = alto
+        else:
+            print(f'Valor erroneo: {alto}')
 
-    def set_alto(self, alto):
-        self._alto = alto
+    def __str__(self):
+        return f'FiguraGeometricas[{self._ancho}, Alto: {self._alto} ]'
 
-
+    def _validar_valor(self, valor):
+        return True if 0 < valor < 10 else False
