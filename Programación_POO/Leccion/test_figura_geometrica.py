@@ -1,5 +1,9 @@
 from Programación_POO.Leccion.cuadrado import Cuadrado
+from Programación_POO.Leccion.figura_geometrica import FiguraGeometrica
 from Programación_POO.Leccion.rectangulo import Rectangulo
+
+# No se puede instanciar una clase abstracta
+# figura = FiguraGeometrica()
 
 print(' Creacion Objeto Cuadrado '.center(50,'-'))
 cuadrado1 = Cuadrado(5,'Rojo')

@@ -16,3 +16,9 @@ print(mi_tupla)
 #@property
 #def marca(self):
 #     return self._marca
+
+# Dejamos la funcion con pass para indicar que no
+# se esta ocupando por ahora
+
+#  def calcular_area(self):
+#         pass
